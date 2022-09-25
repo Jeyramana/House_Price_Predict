@@ -1,4 +1,9 @@
-# House_Price_Predict
+# Chennai House Price Prediction
+
+## Problem Statement
+1. Real estate transactions are quite opaque sometimes and it may be difficult for a newbie to know the fair price of any given home. Thus, multiple real estate websites have the functionality to predict the prices of houses given different features regarding it. Such forecasting models will help buyers to identify a fair price for the home and also give insights to sellers as to how to build homes that fetch them more money. 
+2. Chennai house sale price data is presented in train-chennai-sale.csv file and we try to build a sale price prediction model that will aid the customers to find a fair price for their homes and also help the sellers understand what factors are fetching more money for the houses.
+
 
 Based on the train dataset, we need to develop a model that accurately predicts the real estate price in Chennai.
 
@@ -22,7 +27,6 @@ Based on the train dataset, we need to develop a model that accurately predicts 
 	• AREA – The property in which the real estate is located 
 	• DIST_MAINROAD – The distance of the property to the main road 
 	• PARK_FACIL – Whether parking facility is available 
-
 	• UTILITY_AVAIL
 		AllPub: All public Utilities (E,G,W,& S)
 		NoSewr: Electricity, Gas, and Water (Septic Tank)
@@ -39,6 +43,11 @@ Based on the train dataset, we need to develop a model that accurately predicts 
 		RH: Residential High Density
 		RL: Residential Low Density
 		RM: Residential Medium Density
+	• PRT_ID – The Property Transaction ID assigned by ChennaiEstate
+	• COMMIS – The Commission paid to the agent
+	• SALES_PRICE – The total sale price of the property
+	 
+	
 
 
 
