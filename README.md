@@ -101,13 +101,13 @@ Based on the train dataset, we need to develop a model that accurately predicts 
 		a. Linear Regression
 			i. Feature Importance Graph
 			ii. Prediction Analysis
-		b. Random Forest
+		b. XG Boost
 			i. Feature Importance Graph
 			ii. Prediction Analysis
-		c. Decision Tree
+		c. Random Forest
 			i. Feature Importance Graph
 			ii. Prediction Analysis
-		d. XG Boost
+		d. Decision Tree
 			i. Feature Importance Graph
 			ii. Prediction Analysis
 	7. Conclusion
