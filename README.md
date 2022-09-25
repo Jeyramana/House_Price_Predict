@@ -49,8 +49,6 @@ Based on the train dataset, we need to develop a model that accurately predicts 
 	 
 ## Contents
 
-Content Hierarchy:
-
 	1. Import Libraries
 	2. Read Data
 		a. Observation
