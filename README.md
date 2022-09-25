@@ -47,7 +47,76 @@ Based on the train dataset, we need to develop a model that accurately predicts 
 	• COMMIS – The Commission paid to the agent
 	• SALES_PRICE – The total sale price of the property
 	 
-	
+## Contents
+
+Content Hierarchy:
+
+	1. Import Libraries
+	2. Read Data
+		a. Observation
+			i. Shape, Describe, Info, Null
+	3. Text Pre-processing
+		a. General Data Cleaning
+			i. Fill Null columns
+			ii. Change data type of columns
+			iii. Drop PRT_ITEMS
+		b. Column by Column Cleaning
+			i. Area
+			ii. N Bed, Bath, Rooms
+			iii. Sale condition
+			iv. Park facility
+			v. Build type
+			vi. Utility avail
+			vii. Street
+			viii. Mzzone
+			ix. Reg fee & Commis
+			x. Date of sale & build
+	4. Feature Engineering
+		a. House age
+		b. Dimentionality reduction
+			i. Correlation graph
+			ii. All QS features
+			iii. DIST_MAINROAD
+			iv. REG_FEE & COMMIS
+			v. N_ROOM
+		c. Encoding
+			i. Ordinal
+			ii. Nominal
+		d. Feature Selection
+		e. Dropping coloumns
+		f. Outliers
+	5. Exploratory Data Analysis
+		a. Categorical feature analysis
+			i. Area
+			ii. N Bed, Bath, Rooms
+			iii. Sale condition
+			iv. Park facility
+			v. Build type
+			vi. Utility avail
+			vii. Street
+			viii. MZ ZONE
+		b. Continous feature analysis
+			i. Sales price
+			ii. INT_SQFT
+			iii. House age
+	6. ML Models
+		a. Linear Regression
+			i. Feature Importance Graph
+			ii. Prediction Analysis
+		b. Random Forest
+			i. Feature Importance Graph
+			ii. Prediction Analysis
+		c. Decision Tree
+			i. Feature Importance Graph
+			ii. Prediction Analysis
+		d. XG Boost
+			i. Feature Importance Graph
+			ii. Prediction Analysis
+	7. Conclusion
+		a. Important Features
+		b. User Specific Prediction
+		c. Observation
+
 
 
 
